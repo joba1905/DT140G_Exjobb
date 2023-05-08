@@ -2,6 +2,15 @@
 ### En blockplugin för WordPress
 #### Skapad av Joacim Bäcklund för Fostira AB 2023
 
+## INNEHÅLL:
+[I. ÖVERSIKT](#i-översikt)
+
+[II. SKAPA ETT BLOCK I JAVASCRIPT](#ii-skapa-ett-block-i-javascript)
+
+[III. LÄGG TILL BLOCK I PLUGIN](#iii-lägg-till-block-i-plugin)
+
+[IV. RENDER CALLBACK](#iv-render-callback)
+
 ## I. ÖVERSIKT
 
 JBlocks är en blockplugin för WordPress 6.2 som består av en php-pluginfil, en stilmall och en mapp med block. Pluginen registrerar blocken i mappen blocks
