@@ -38,7 +38,7 @@ HTML element som div, p, img etc skapas med hjälp av return wp.element.createEl
         icon: "smiley",
         category: "common",
     
-        edit: function (props) {
+        edit: function (props) { <---- REDIGERINGSLÄGE
             
             return wp.element.createElement(
                 "p",
@@ -47,7 +47,7 @@ HTML element som div, p, img etc skapas med hjälp av return wp.element.createEl
             );
         },
     
-        save: function (props) {
+        save: function (props) { <---- FRONTEND
             
             return wp.element.createElement(
                 "p",
