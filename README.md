@@ -9,7 +9,7 @@
 
 [III. LÄGG TILL BLOCK I PLUGIN](#iii-lägg-till-block-i-plugin)
 
-[IV. RENDER CALLBACK](#iv-render-callback)
+[IV. KÖRA FRONTEND-SCRIPT (RENDER CALLBACK)](#iv-köra-frontend-script-render-callback)
 
 ## I. ÖVERSIKT
 
@@ -111,7 +111,7 @@ Byt ut exempel mot namnet på blockets Javascriptfil (utan .js)
 
 ### 4. Gör en ny ZIP-fil och importera plugin eller lägg till/uppdatera med WP File Manager.
 
-## IV. RENDER CALLBACK
+## IV. KÖRA FRONTEND-SCRIPT (RENDER CALLBACK)
 
 Tyvärr går det inte att köra Javascriptfunktioner direkt i save i blocken. För att köra funktioner måste man göra det efter att blocket har laddat klart. 
 Detta görs genom att registrera skriptet som ska köras och sen lägga till parametern "render_callback" i register_block_type funktionen för blocket som ska köra skriptet.
