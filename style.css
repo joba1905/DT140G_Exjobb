@@ -1,0 +1,140 @@
+/** JB TEXT **/
+
+.wp-block-jblocks-textblock { /* DIV-container till block */
+    background-color:#e6e3da;
+	padding: 8px;
+	word-wrap: break-word;
+	box-shadow: 0 5px 6px 0 rgb(0 0 0 / 23%);
+}
+
+.wp-block-jblocks-textblock p { /* Textinnehåll i block */
+	line-height: 1,2;
+	margin-bottom: 0 !important;
+}
+
+/** JB BUTTON **/
+
+.wp-block-jblocks-button { /* DIV-container till block */
+	color: black;
+	cursor: pointer;
+	box-shadow: 0 5px 6px 0 rgb(0 0 0 / 23%);
+	background-color: rgb(218, 230, 224);
+    border-radius: 8px;
+    height: 50px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    border-style: none;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.wp-block-jblocks-button:hover {
+	color: black !important;
+	background-color: rgb(188, 200, 194) !important;
+}
+
+.wp-block-jblocks-button:active {
+	color: white !important;
+	background-color: black !important;
+}
+
+/** JB LINK **/
+
+.wp-block-jblocks-link { /* DIV-container till block */
+	display: flex;
+	align-items: center;
+	font-size: 18px;
+    font-weight: 600;
+	background-color: rgb(218, 230, 224);
+	color: black;
+    cursor: pointer;
+	border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 20px;
+	box-shadow: 0 5px 6px 0 rgb(0 0 0 / 23%);
+	text-decoration: none !important;
+}
+
+.wp-block-jblocks-link span { /* Span för ikon på länk */
+	margin-right: 5px;
+}
+
+.wp-block-jblocks-link:hover {
+	color: black !important;
+	background-color: rgb(188, 200, 194);
+}
+
+/** JB IMAGE **/
+
+.wp-block-jblocks-image { /* DIV-container till block */
+	display: flex;
+    flex-direction: column;
+	width: 800px;
+	height: auto;
+	margin: 20px auto;
+}
+
+.wp-block-jblocks-image p { /* Bildtexten under blocket */
+	text-align: center;
+  	background-color: #222;
+  	padding: 2px 16px;
+  	color: white;
+}
+   
+/** JB TIMESTAMP **/
+
+.wp-block-jblocks-timestamp { /* DIV-container till block */
+	box-shadow: 0 5px 6px 0 rgb(0 0 0 / 23%);
+	background-color: #f2f2f2;
+	padding: 8px;
+	word-wrap: break-word;
+}
+
+.wp-block-jblocks-timestamp p { /* Textinnehållet i blocket */
+	margin-bottom: 0 !important;
+	font-size: 1em;
+}
+
+/** JB SLIDESHOW **/
+
+.wp-block-jblocks-slideshow-editor img { /* Miniatyrbilder för slideshowen i redigeringsläget */
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	margin-right: 10px;
+	border: 1px solid #ddd;
+	padding: 5px;
+}
+
+.wp-block-jblocks-slideshow-editor img:last-of-type { /* Miniatyren längst till höger (sista bilden) */
+	margin-right: 0;
+}
+
+.wp-block-jblocks-slideshow { /* DIV-container för slideshowblocket på frontend */
+	width: 800px;
+	height: auto;
+	margin: 20px auto;
+}
+
+.jblocks-slideimg { /* Varje bild i slideshow */
+	display: none;
+}
+
+.jblocks-slidetext { /* Bildtext under slideshow */
+	display: none;
+	text-align: center;
+  	background-color: #222;
+  	padding: 2px 16px;
+  	color: white;
+}
+
+.fade { /* Animationer vid övergång mellan bilder */
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
