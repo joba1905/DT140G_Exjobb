@@ -138,3 +138,24 @@
 	from {opacity: .4} 
 	to {opacity: 1}
 }
+
+@media only screen and (min-width: 1024px) {
+	.wp-block-jblocks-image,
+	.wp-block-jblocks-slideshow {
+		width: 800px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+	.wp-block-jblocks-image,
+	.wp-block-jblocks-slideshow {
+		width: 600px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.wp-block-jblocks-image,
+	.wp-block-jblocks-slideshow {
+		width: 100%;
+	}
+}
